@@ -1,45 +1,114 @@
-h1{
-    color: rgb(182, 55, 82);
-    font-size: 50px;
-    text-align:left;
-}
-    .titulo{
-        color: rgb(155, 82, 207);
-        font-size: 50px;
-        text-align: left;
-    }
-    h2{
-        color: rgb(248, 19, 19);
-        font-size: 45px; 
-        text-align: center;
-    }
-    .fotos{
-        width: 60%;
-        height: 60%;
-    }
-p{
-    color: rgb(26, 112, 112);
-    text-align: center;
-    font-size: 30px;
-}
-a{
-    color: deeppink;
-    background-color: rgb(145, 223, 253);
-    font-size: 30px;
-}
-ul{
-    color: rgb(226, 43, 134);
-    font-size: 30px;
-    display:flex;
-    align-items: center;
-justify-content: flex-end;
-gap: 3rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Poppins:wght@100;300;400;500&family=Righteous&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+
+    background: rgb(188,34,195);
+    background: linear-gradient(0deg, rgba(188,34,195,0.6811099439775911) 0%,
+     rgba(45,253,160,0.8575805322128851) 100%);    
+}
+
+.menu{
+    display:flex ;
+    flex-direction:row;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+   .conteudo{
+    margin-bottom: 70px ;
+    border-top:5px solid rgb(101, 56, 143);
+   }
+ .texto-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around ;
+ }
+ .texto{
+    display:flex ;
+    flex-direction:column ;
+    gap: 200px }
+    
+    .titulo{
+        font-family:"Righteous";
+        font-weight: 400;
+        font-size: 60px;
+        color: rgb(118, 15, 158);
+    }
+    .subtitulo{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgb(5, 57, 73);
+    text-align: center;
+    }
+    .img1{
+        height: 450px;
+        padding: 25px ;
+    }
+    .paragrafo{
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: rgb(5, 57, 73);
+        text-align: justify;  
+    }
+    main{
+     border-top:5px solid rgb(101, 56, 143);
+    }
+
+    .titulo-html2{
+
+        padding: 20px;
+        font-family:"Righteous";
+        font-weight: 400;
+        font-size: 45px;
+        color: rgb(118, 15, 158);
+    }
+    .subtitulo-html2,.subtitulo2-html2{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+    }
+    .texto1-html2,.texto2-html2{
+     font-family: 'Lobster', cursive;
+     color: rgb(5, 57, 73);
+     font-weight: 400;
+     font-size: 40px;
+    }
+    .paragrafo2-html2,.paragrafo-html2{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(5, 57, 73)
+    }
+    
+  .fotos{
+    margin: auto;
+    display: block;
+    width: 60%;
+    height: 60%;
+    }
+
+    
+
+footer{
+
+    border-top:5px solid rgb(101, 56, 143);
 }
 a{
     text-decoration: none;
